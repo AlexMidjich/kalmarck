@@ -6,4 +6,4 @@
 
 <p>What the user will be able to do with this theme is that they can change all the text fields, all the images and the menu. Besides that they also have the features from google calender.</p>
 
-<p>A live version of the site is currently up and running on <a href="http://www.kalmarck.midjich.se>kalmarck.midjich.se"</a></p>
+<p>A live version of the site is currently up and running on http://www.kalmarck.midjich.se</p>
