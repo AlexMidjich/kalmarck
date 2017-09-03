@@ -1,45 +1,19 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+<h3>Developing</h3>
+<p>The theme is created by me, Alexander Midjich. For developing the theme I have worked with plain html, css and some javascript. I have used a clean wordpress theme from http://underscores.me, just to get the necessay files for a wordpress theme to work.</p>
 
-_s
-===
+<p>Plug-ins that I have used for this theme is:</p>
+<ul>
+  <li>Advanced custom fields</li>
+  <li>Custom post types</li>
+  <li>WpForms</li>
+</ul> 
+  
+<h3>compatibility</h3>
+<p>This theme works on desktop, mobiles and tablets. For desktop I have tested it on chrome, firefox, IE, Edge and Safari</p>
 
-Hi. I'm a starter theme called `_s`, or `underscores`, if you like. I'm a theme meant for hacking so don't use me as a Parent Theme. Instead try turning me into the next, most awesome, WordPress theme out there. That's what I'm here for.
+<h3>Functions</h3>
+The club didn't have any specific they wanted me to regard in making their new site accept for some kind of a calender function. What I have done is that I choose to display some general information that they can update as they see fit. As for the calender I had a look on some of the plug-ins in wordpress put then decided on google calender, simply because I believe it to be one of the more user friendly calender and you can invite anyone you want to see and upload new events.</p>
 
-My ultra-minimal CSS might make me look like theme tartare but that means less stuff to get in your way when you're designing your awesome theme. Here are some of the other more interesting things you'll find here:
+<p>What the user will be able to do with this theme is that they can change all the text fields, all the images and the menu. Besides that they also have the features from google calender.</p>
 
-* A just right amount of lean, well-commented, modern, HTML5 templates.
-* A helpful 404 template.
-* A custom header implementation in `inc/custom-header.php` just add the code snippet found in the comments of `inc/custom-header.php` to your `header.php` template.
-* Custom template tags in `inc/template-tags.php` that keep your templates clean and neat and prevent code duplication.
-* Some small tweaks in `inc/template-functions.php` that can improve your theming experience.
-* A script at `js/navigation.js` that makes your menu a toggled dropdown on small screens (like your phone), ready for CSS artistry. It's enqueued in `functions.php`.
-* 2 sample CSS layouts in `layouts/` for a sidebar on either side of your content.
-* Smartly organized starter CSS in `style.css` that will help you to quickly get your design off the ground.
-* Licensed under GPLv2 or later. :) Use it to make something cool.
-
-Getting Started
----------------
-
-If you want to keep it simple, head over to http://underscores.me and generate your `_s` based theme from there. You just input the name of the theme you want to create, click the "Generate" button, and you get your ready-to-awesomize starter theme.
-
-If you want to set things up manually, download `_s` from GitHub. The first thing you want to do is copy the `_s` directory and change the name to something else (like, say, `megatherium-is-awesome`), and then you'll need to do a five-step find and replace on the name in all the templates.
-
-1. Search for `'_s'` (inside single quotations) to capture the text domain.
-2. Search for `_s_` to capture all the function names.
-3. Search for `Text Domain: _s` in style.css.
-4. Search for <code>&nbsp;_s</code> (with a space before it) to capture DocBlocks.
-5. Search for `_s-` to capture prefixed handles.
-
-OR
-
-1. Search for: `'_s'` and replace with: `'megatherium-is-awesome'`
-2. Search for: `_s_` and replace with: `megatherium_is_awesome_`
-3. Search for: `Text Domain: _s` and replace with: `Text Domain: megatherium-is-awesome` in style.css.
-4. Search for: <code>&nbsp;_s</code> and replace with: <code>&nbsp;Megatherium_is_Awesome</code>
-5. Search for: `_s-` and replace with: `megatherium-is-awesome-`
-
-Then, update the stylesheet header in `style.css` and the links in `footer.php` with your own information. Next, update or delete this readme.
-
-Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
-
-Good luck!
+<p>A live version of the site is currently up and running on http://www.kalmarck.midjich.se</p>
