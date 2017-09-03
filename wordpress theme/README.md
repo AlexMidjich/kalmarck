@@ -1,3 +1,5 @@
+<h1>Theme for Kalmar Cykelklubb</h1>
+
 <h3>Developing</h3>
 <p>The theme is created by me, Alexander Midjich. For developing the theme I have worked with plain html, css and some javascript. I have used a clean wordpress theme from http://underscores.me, just to get the necessay files for a wordpress theme to work.</p>
 
