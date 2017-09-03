@@ -10,6 +10,7 @@
   <li>Advanced custom fields</li>
   <li>Custom post types</li>
   <li>WpForms</li>
+</ul> 
   
 <h3>compatibility</h3>
 <p>This theme works on desktop, mobiles and tablets. For desktop I have tested it on chrome, firefox, IE, Edge and Safari</p>
