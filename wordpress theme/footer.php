@@ -65,7 +65,7 @@
 				</div>
 				<div class="threecolumns">
 						<p>Bilder &copy; <a href="http://www.mattzbirath.se/" target="_blank">fotograf Mattz Birath</a></p>
-						<p>Design &amp; produktion av <a href="http://www.midjich.com" taret="_blanck">midjich.com</a></p>
+						<p>Design &amp; produktion av <a href="http://www.midjich.com" taret="_blank">midjich.com</a></p>
 				</div>
 		</div>
 </footer>
