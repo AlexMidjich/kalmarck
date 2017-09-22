@@ -44,5 +44,5 @@
 
 				<a href="https://www.facebook.com/Kalmar-cykelklubb-175016142544675/?fref=ts" target="_blank"><i class="fa fa-facebook-official socialheader_facebook" style="font-size:36px;"></i></a>
 				<div id="menubtn"><i class="fa fa-bars" aria-hidden="true" style="font-size: 24px; color: #ffffff;"></i></div>
-				<a href='http://kalmarck.midjich.se/157-2/'><button id="blimedlem">Bli medlem</button></a>
+				<a href='http://kalmarcykelklubb.se/157-2/'><button id="blimedlem">Bli medlem</button></a>
 			</div>

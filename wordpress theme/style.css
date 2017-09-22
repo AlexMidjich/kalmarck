@@ -640,7 +640,7 @@ footer p a{
 /*=============End Styling for Navbar===============*/
 /*=============Styling for first part on fron page===============*/
 #mainsection{
- background-image: url('img/bgmain.jpg');	
+ background-image: url('img/bgmain.jpg');
  background-size: cover;
  background-repeat: no-repeat;
  background-position: center;
@@ -1187,6 +1187,15 @@ p {
 }
 #eventwrapper{
 	 justify-content: center;
+}
+#bgmiddle{
+ /*background-image: url('img/bg2000x1136.jpg');*/
+ background-attachment: scroll;
+ background-position: center;
+ width: 100%;
+ height: 200px;
+ padding-bottom: 50px;
+ margin-bottom: 20px;
 }
 /*Verksamhet*/
 .margins{

@@ -28,7 +28,7 @@
 						?>
 						<p><?php echo $adress ?></p>
 						<p>E-post <a mailto="<?php echo $epost_lank ?>"><?php echo $epost_text ?></a></p>
-						<?php endwhile; wp_reset_query(); //Stänger while loopen?>	
+						<?php endwhile; wp_reset_query(); //Stänger while loopen?>
 				</div>
 
 				<div class="threecolumns">
@@ -65,7 +65,7 @@
 				</div>
 				<div class="threecolumns">
 						<p>Bilder &copy; <a href="http://www.mattzbirath.se/" target="_blank">fotograf Mattz Birath</a></p>
-						<p>Design &amp; produktion av <a href="#" taret="_blanck">midjich.com</a></p>
+						<p>Design &amp; produktion av <a href="http://www.midjich.com" taret="_blanck">midjich.com</a></p>
 				</div>
 		</div>
 </footer>
