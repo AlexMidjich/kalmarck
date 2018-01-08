@@ -12,8 +12,8 @@
 ?>
 
 <footer>
-		<div id="eventwrapper">
-				<div class="threecolumns">
+		<div class="eventwrapper">
+				<div class="columns">
 						<?php
 												//Loop som är kopplat till Custom post types(CTP). Loopen kollar igenom CPT vid namn "footer"
 												//finns det värden så kommer dessa att skrivas ut
@@ -27,11 +27,11 @@
 
 						?>
 						<p><?php echo $adress ?></p>
-						<p>E-post <a mailto="<?php echo $epost_lank ?>"><?php echo $epost_text ?></a></p>
+						<p>E-post: <a mailto="<?php echo $epost_lank ?>"><?php echo $epost_text ?></a></p>
 						<?php endwhile; wp_reset_query(); //Stänger while loopen?>
 				</div>
 
-				<div class="threecolumns">
+				<div class="columns">
 					<?php
 											//Loop som är kopplat till Custom post types(CTP). Loopen kollar igenom CPT vid namn "sociala medier"
 											//finns det värden så kommer dessa att skrivas ut
@@ -63,9 +63,9 @@
 
 						<?php endwhile; wp_reset_query(); //Stänger while loopen?>
 				</div>
-				<div class="threecolumns">
+				<div class="columns">
 						<p>Bilder &copy; <a href="http://www.mattzbirath.se/" target="_blank">fotograf Mattz Birath</a></p>
-						<p>Design &amp; produktion av <a href="http://www.midjich.com" taret="_blank">midjich.com</a></p>
+						<p>Design &amp; produktion av <a href="http://www.midjich.com" target="_blank">midjich.com</a></p>
 				</div>
 		</div>
 </footer>

@@ -23,7 +23,20 @@
 		<!-- Font awesome -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
 	<?php wp_head(); ?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112072175-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-112072175-1');
+	</script>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -32,7 +45,7 @@
 
 	<header id="masthead" class="site-header">
 
-			<div id='navbar'>
+			<div class='navbar'>
 				<?php
 					wp_nav_menu( array(
 
@@ -44,5 +57,5 @@
 
 				<a href="https://www.facebook.com/Kalmar-cykelklubb-175016142544675/?fref=ts" target="_blank"><i class="fa fa-facebook-official socialheader_facebook" style="font-size:36px;"></i></a>
 				<div id="menubtn"><i class="fa fa-bars" aria-hidden="true" style="font-size: 24px; color: #ffffff;"></i></div>
-				<a href='http://kalmarcykelklubb.se/157-2/'><button id="blimedlem">Bli medlem</button></a>
+				<a href='http://kalmarcykelklubb.se/157-2/'><button class="blimedlem">Bli medlem</button></a>
 			</div>

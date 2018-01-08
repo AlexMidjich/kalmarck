@@ -8,12 +8,12 @@ $bild_pa_gang                        = get_field('bild_pa_gang');
 
 ?>
 
-<section id="pagang">
+<section class="pagang" id="pagang">
   <h1><?php echo $headline_pa_gang ?></h1>
-  <div id="kalender">
-   <iframe src="https://calendar.google.com/calendar/embed?src=bi2ljjshrldj2f14bt4n7ofcks%40group.calendar.google.com&ctz=Europe/Stockholm" style="border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+  <div class="kalender">
+   <iframe src="https://calendar.google.com/calendar/embed?src=bm8njmblkc2n29v8i4dn9dqip8%40group.calendar.google.com&ctz=Europe%2FStockholm" style="border: 0" width="600" height="400" frameborder="0" scrolling="no"></iframe>
   </div>
-  <div id="eventwrapper">
+  <div class="eventwrapper">
 
    <?php
          //Loop som är kopplat till Custom post types(CTP). Loopen kollar igenom CPT vid namn "pa_gang"
@@ -34,5 +34,5 @@ $bild_pa_gang                        = get_field('bild_pa_gang');
    <?php endwhile; wp_reset_query(); //Stänger while loopen ?>
   </div>
 </section>
-<section id="bgmiddle" style="background-image: url(<?php echo $bild_pa_gang; ?>); width: 100%; height: 300px;">
+<section class="bgmiddle" style="background-image: url(<?php echo $bild_pa_gang; ?>); width: 100%; height: 300px;">
 </section>

@@ -13,7 +13,7 @@ $bildtext_ledarna                     = get_field('bildtext_ledarna');
 
 ?>
 
-<section id="omoss">
+<section class="omoss" id="omoss">
   <h1><?php echo $headline_om_oss ?></h1>
   <div class="imgwrapper">
     <div class="smallimg">
@@ -24,10 +24,10 @@ $bildtext_ledarna                     = get_field('bildtext_ledarna');
     <div class="smallimg">
       <h3><?php echo $headline_ledarna ?></h3>
       <img src="<?php echo $bild_ledarna ?>" />
-      <p class="imgtext"><?php echo $bildtext_ledarna ?></p>
+      <p class="imgtext"><?php echo $bildtext_ledarna ?> </p>
     </div>
   </div>
-  <div id="eventwrapper">
+  <div class="eventwrapper">
 
    <?php
          //Loop som är kopplat till Custom post types(CTP). Loopen kollar igenom CPT vid namn "om_oss"

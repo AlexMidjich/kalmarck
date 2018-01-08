@@ -29,15 +29,15 @@ $small_img_leftside                   = get_field('small_img_leftside');
 $small_img_leftside_txt               = get_field('small_img_leftside_txt');
 ?>
 
-<section id='historiasection'>
-  <div id="historiaheader">
+<section class="history">
+  <div class="history-header">
     <h1><?php echo $headline_historia ?></h1>
     <h3><?php echo $second_headline_historia ?></h3>
   </div>
 </section>
-<section id="historiatext">
+<section class="historytxt">
   <div class="contentwrapper">
-    <div id="textcontent">
+    <div class="textcontent">
       <p><?php echo $first_paragraph_historia ?></p>
       <div class="imgwrapper">
         <div class="smallimg">
@@ -50,7 +50,7 @@ $small_img_leftside_txt               = get_field('small_img_leftside_txt');
         </div>
       </div>
     </div>
-    <div id="imgcontent">
+    <div class="imgcontent">
       <img src="<?php echo $small_img_leftside ?>"  />
       <p class="imgtext"><?php echo $small_img_leftside_txt ?></p>
     </div>
